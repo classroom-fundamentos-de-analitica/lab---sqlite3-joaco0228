@@ -38,3 +38,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+SELECT strftime('%Y', c14), count(c14) FROM tbl1 WHERE strftime('%Y', c14) LIKE '2018%';
